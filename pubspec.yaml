@@ -1,0 +1,206 @@
+name: flutter_rideshare
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.23+24    #IOS
+#version: 1.0.13+14    #Android
+
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  #Used for reactive programming like returning Either as future.
+  dartz: ^0.10.1
+
+
+
+  #used for dynamic screen sizes
+  flutter_screenutil: ^5.3.1
+
+  #used for dependency injection as resource locator
+  get_it: ^7.2.0
+
+  #used for state management
+  provider: ^6.0.3
+
+  # For creating simple shadow
+  simple_shadow: ^0.3.0
+
+  # For shimmer effects
+  shimmer: ^2.0.0
+
+  #used to check internet connectin
+  internet_connection_checker: ^0.0.1+3
+
+  #used to override equality
+  equatable: ^2.0.3
+
+  # Used to format dates
+  intl: ^0.17.0
+
+  #Used for Http Client
+  dio: ^4.0.6
+
+  #to show logs in different colors
+  logger: any
+
+
+  #  # For virtual different screen sizes
+  #  device_preview: ^1.1.0
+
+  #to add Google Fonts
+  google_fonts: ^3.0.1
+
+  # To incorporate the SVGs in Flutter
+  flutter_svg: ^1.0.1
+
+  # For OTP Pin Textfields
+  pin_code_fields: ^7.3.0
+
+
+  #to use input formatters
+  mask_text_input_formatter: ^2.3.0
+
+
+  #to encrypt and decrpt data
+  encrypt: any
+
+  #to implement introduction screen
+
+  introduction_slider: ^1.0.0
+
+  #to implement custom switch button
+
+  flutter_switch: ^0.3.2
+
+  #to use firebase services in our app
+
+  firebase_core: ^1.17.1
+
+
+  google_maps_flutter: ^2.2.1
+#  google_maps_flutter: ^2.1.10
+
+  # to change package name
+  change_app_package_name: ^1.1.0
+
+  #to store data locally
+  flutter_secure_storage: any
+
+  #To get user's location
+  geolocator: ^9.0.0
+
+  maps_toolkit: ^2.0.0
+
+  flutter_polyline_points: ^1.0.0
+
+  flutter_easyloading: ^3.0.5
+
+  # to use mobile compass
+  flutter_compass: ^0.7.0
+
+  permission_handler: ^10.0.0
+
+  device_preview: ^1.1.0
+
+
+  # to choose image
+  image_picker: ^0.8.5+3
+
+
+  #for firebase messaging
+  firebase_messaging: ^11.4.3
+
+  # to use as local notifications
+
+  flutter_local_notifications: ^9.6.1
+
+  # to use sockets in app
+  socket_io_client: ^2.0.0-beta.4-nullsafety.0
+
+  # to use silder in app
+  carousel_slider: ^4.1.1
+
+
+  # to open urls in browser
+  url_launcher: ^6.1.5
+
+  # flutter toast
+  fluttertoast: ^8.0.9
+
+  #to show confirm dialog
+  confirm_dialog: ^1.0.1
+
+  flutter_share: ^2.0.0
+
+
+  move_to_background: ^1.0.2
+
+  #to give star rating
+  flutter_rating_bar: ^4.0.0
+
+
+  flutter_cache_manager: ^3.3.0
+
+  # to use custom ui pages
+  chat_bubbles: ^1.3.0
+
+  #to clear notifications
+
+  clear_all_notifications: ^0.0.3
+
+
+  # to get location stream even when app is killed
+  background_locator_2: ^2.0.5
+
+  #to play notification sound
+  flutter_ringtone_player: ^3.2.0
+
+  #to use Google Analytics
+  firebase_analytics: ^9.3.2
+
+  # to use webview to render html in app
+  flutter_inappwebview: ^5.4.3+7
+
+  # to use dotted line
+  dotted_line: ^3.1.0
+
+  # to check network connectivity
+  connectivity_plus: ^2.3.6+1
+
+  # to get app related info like version number.
+  package_info_plus: ^1.4.3+1
+
+  # to get device info
+  device_info_plus: ^7.0.0
+
+  # to show error logs
+  firebase_crashlytics: ^2.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^1.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/images/
+
